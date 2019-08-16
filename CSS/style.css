@@ -1,0 +1,148 @@
+.mypic {
+    background-image: linear-gradient(to top, #110d0f, #191417, #1f191f, #241e27, #282430, #3b3340, #50424f, #65525f, #8d7377, #b19991, #cfc1b1, #ebecd9);
+    height:800px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.right {
+    padding: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.right a {
+    color:rgb(58, 55, 55);
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Josefin Sans', sans-serif;
+}    
+
+.intro {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    padding-top: 100px;
+    
+}
+.quote1 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+    
+
+}
+.quote2 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+}
+.columnA {
+    display: flex;
+    align-items: flex-start stretch;
+    justify-content: space-evenly;
+    margin-right: 0;
+    
+    
+}
+.columnB {
+    display: flex;
+    align-items: flex-start stretch;
+    justify-content: space-evenly;
+    margin-left: 0;
+
+}
+
+
+.work1 {
+    display: flex;
+    align-items: flex-start stretch;
+    background: url("../Images/001\ Planit\ Main.png") no-repeat;
+    width: 840px;
+    height: 840px;
+    background-size: 840px 840px;
+    justify-content: space-evenly;
+    
+    
+}
+.text:hover {
+    transition: .8s;
+    background: none;
+
+}
+
+
+
+.work2 {
+    display: flex;
+    align-items: flex-start stretch;
+    background: url("../Images/002\ Food\ Main.png") no-repeat;
+    width: 840px;
+    height: 840px;
+    background-size: 840px 840px;
+    justify-content: space-evenly;
+    
+}
+.work3 {
+    display: flex;
+    align-items: flex-start stretch;
+    background: url("../Images/003\ SFO\ Main.png") no-repeat;
+    width: 840px;
+    height: 840px;
+    background-size: 840px 840px;
+    justify-content: space-evenly;
+}
+.work4 {
+    display: flex;
+    align-items: flex-start stretch;
+    background: url("../Images/004\ BCS\ Main.png") no-repeat;
+    width: 840px;
+    height: 840px;
+    background-size: 840px 840px;
+    justify-content: space-evenly;
+}
+.text {
+    background: rgba(0, 0, 0, 0.411);
+    width: 100%;
+    padding: 10px 30px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #110d0f, #191417, #1f191f, #241e27, #282430, #3b3340, #50424f, #65525f, #8d7377, #b19991, #cfc1b1, #ebecd9);
+    height: 100px;
+}
+
+.footer a {
+    padding: 20px 40px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 840px) {
+    .columnA {
+     flex-direction: column
+     
+    }
+  }
+@media only screen and (max-width: 840px) {
+    .columnB {
+       flex-direction: column
+    }
+  }
+@media only screen and (max-width: 840px) {
+    .mypic {
+       justify-content: stretch;
+    }
+  }
